@@ -1,6 +1,6 @@
 {
   "name": "earth-wayleggo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "build": "tsup",
@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "earth-wayleggo": "^1.0.0",
     "nepali-date-converter": "^3.3.3"
   },
   "devDependencies": {
