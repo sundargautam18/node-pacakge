@@ -1,0 +1,20 @@
+{
+  "name": "earth-wayleggo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nepali-date-converter": "^3.3.3"
+  },
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  }
+}
