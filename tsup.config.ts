@@ -1,4 +1,3 @@
-// tsup.config.ts
 import { defineConfig } from "tsup";
 
 export default defineConfig({
@@ -6,4 +5,8 @@ export default defineConfig({
   format: ["esm", "cjs"],
   clean: true,
   dts: true,
+  sourcemap: true,
+  esbuildOptions(options) {
+    options.external = ["nepali-date-converter"]; // Ensure it is not bundled
+  },
 });
